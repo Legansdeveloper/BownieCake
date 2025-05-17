@@ -9,41 +9,6 @@
     body {
       font-family: 'Segoe UI', sans-serif;
     }
-    
-    /* Animasi kelinci lari */
-    @keyframes runRight {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(100vw); }
-    }
-
-    .rabbit {
-      position: fixed;
-      bottom: 20px;
-      width: 80px;
-      height: 80px;
-      background-size: contain;
-      background-repeat: no-repeat;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
-      z-index: 9999;
-    }
-
-    .rabbit1 {
-      left: -100px;
-      background-image: url('https://i.ibb.co/yRCR68F/rabbit1.png');
-      animation-name: runRight;
-      animation-duration: 10s;
-      animation-delay: 0s;
-    }
-
-    .rabbit2 {
-      left: -150px;
-      bottom: 100px;
-      background-image: url('https://i.ibb.co/yRCR68F/rabbit1.png');
-      animation-name: runRight;
-      animation-duration: 12s;
-      animation-delay: 4s;
-    }
 
     /* Tombol musik di pojok bawah kanan */
     #toggleMusic {
@@ -255,10 +220,6 @@
       
     </div>
   </div>
-
-  <!-- 2 kelinci lari -->
-  <div class="rabbit rabbit1"></div>
-  <div class="rabbit rabbit2"></div>
 
   <!-- Musik background -->
   <audio id="bgMusic" src="A Tale of a Rose.mp3" loop></audio>
